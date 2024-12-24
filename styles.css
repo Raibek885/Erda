@@ -1,0 +1,208 @@
+/* Сброс */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Шрифт, фон, общие стили */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+  }
+  
+  /* Верхняя панель (логотип, меню, язык) */
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 20px;
+  }
+  
+  .top-bar-left .logo {
+    height: 40px;
+  }
+  
+  .top-bar-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .top-bar-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .top-bar-nav a:hover {
+    color: #008000; /* Можно изменить на любой цвет при наведении */
+  }
+  
+  .top-bar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lang-button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .lang-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Вторая полоса */
+  .service-bar {
+    background-color: #003366; /* Тёмно-синий цвет */
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Основной контейнер */
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  
+  /* Основной контент (левая колонка) */
+  .main-content {
+    flex: 0 0 65%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Заголовок статьи, дата, автор */
+  .article-head {
+    margin-bottom: 20px;
+  }
+  
+  .article-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .article-head h1 {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .author-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .author-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .author-info {
+    font-size: 14px;
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  /* Картинка в статье */
+  .article-image {
+    margin-bottom: 20px;
+  }
+  
+  .article-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  /* Текст статьи */
+  .article-body p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .news-quote {
+    border-left: 4px solid #008000;
+    padding-left: 10px;
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+  }
+  
+  .girls-list {
+    list-style-position: inside;
+    margin: 10px 0 20px 0;
+  }
+  
+  /* Правая колонка (боковая) */
+  .sidebar {
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar-block {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .sidebar-block h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #008000; /* Для выделения заголовков */
+  }
+  
+  .sidebar-block ul {
+    list-style-type: none;
+  }
+  
+  .sidebar-block ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-block ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar-block ul li a:hover {
+    color: #008000;
+  }
+  
+  /* Подвал */
+  .footer {
+    background-color: #ffffff;
+    border-top: 1px solid #eaeaea;
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
